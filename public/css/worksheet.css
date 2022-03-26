@@ -1,0 +1,107 @@
+.worksheet-image-div {
+  width: 50%;
+  border: 1px solid;
+  height: 300px;
+}
+
+.rating-image {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.worksheet-container {
+  width: 70%;
+  margin: auto;
+}
+
+.single-image-worksheet {
+  height: 700px;
+}
+
+.layout-4-div {
+  height: 200px;
+  width: 150px;
+}
+
+.layout-4-tb {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.lay-4-img-parent {
+  height: 150px;
+}
+
+.layout-5-img-div {
+  height: 250px;
+}
+
+.worksheet-image-div-main {
+  width: 50%;
+  border: 1px solid;
+  height: 230px;
+}
+
+.rating-image-div {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.layout-4-div-el {
+  height: 120px;
+  width: 120px;
+}
+
+.layout-4-tb-el {
+  width: 120px;
+  margin-top: 2px;
+}
+
+.layout-5-img {
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .worksheet-image-div {
+    height: 100px;
+  }
+
+  .rating-image {
+    height: 10px;
+    width: 10px;
+  }
+
+  .worksheet-container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .single-image-worksheet {
+    height: 500px;
+  }
+
+  .layout-3-img {
+    margin: 5px;
+  }
+
+  .layout-4-div {
+    height: 130px;
+    width: 150px;
+  }
+
+  .layout-4-tb {
+    width: 90%;
+    margin-top: 5px;
+  }
+
+  .lay-4-img-parent {
+    height: 95px;
+  }
+
+  .layout-5-img-div {
+    height: 150px;
+  }
+}
+

@@ -1,0 +1,164 @@
+/*--------------------------------------------------------------------
+| CUSTOM CSS FOR SUPERADMIN
+-----------------------------------------------------------------------*/
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.login-center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border-radius: 0.25rem;
+}
+
+/* circle image */
+.image-round {
+    border-radius: 50%;
+}
+
+/* custom badge */
+.custom-badge-success {
+    height: 5px;
+    width: 10px;
+    background-color: #abe5a1;
+    padding: 5px 15px;
+    color: #3c763d;
+}
+
+.custom-badge-warning {
+    height: 5px;
+    width: 10px;
+    background-color: #f7dc6f;
+    padding: 5px 15px;
+    color: #7d6608;
+}
+
+.custom-badge-danger {
+    height: 5px;
+    width: 10px;
+    background-color: #f1948a;
+    padding: 5px 15px;
+    color: #af1111;
+}
+
+/* category access */
+.access-success {
+    color: green;
+}
+
+.access-danger {
+    color: red;
+}
+
+/* delete model button */
+.delete-button {
+    margin: 15px 15px 0px 0px;
+}
+
+.model-footer-padding {
+    padding: 0px !important;
+}
+
+/* category access */
+.category-access-checkbox {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 5px !important;
+    vertical-align: middle;
+}
+
+/* fix issue of math modal */
+.note-modal-footer {
+    padding: 0;
+}
+
+/* for upload button cetner in types */
+.upload-btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    color: transparent;
+}
+
+/* custom file upload design */
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn-upload {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.type-image-div {
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.type-image-div img {
+    width: 100%;
+    height: 100%;
+}
+
+.type-image-trash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    transition: opacity .3s ease-out;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    background: rgba(225, 225, 225, 0.7686274509803922);
+}
+
+.type-image-trash i {
+    color: rgb(217, 83, 79);
+}
+
+.type-image-trash:hover {
+    opacity: 1;
+}
+
+.type-image-main {
+    position: relative;
+    text-align: center;
+}
+
+.worksheet-layout {
+    height: 400px;
+    margin: 5px 0;
+}
+
+.layout-selected {
+    max-width: 800px;
+    border: 1px solid;
+    margin: auto;
+}

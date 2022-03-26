@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------------
+| CUSTOM CSS FOR USER
+-----------------------------------------------------------------------*/
+
+.login-center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border-radius: 0.25rem;
+}
+
+.login-label {
+    color: #2b8e9a !important;
+}
+
+.register-label {
+    color: #2b8e9a !important;
+}
+
+.border-with-radius {
+    /* border: 1px solid #046161;
+    border-radius: 5px; */
+    padding: 5px;
+}
+
+.features-circle {
+    font-size: 38px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    padding: 30px 0;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .05);
+}
+
+.home-logo {
+    height: 60px;
+    margin-top: -15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .home-logo {
+        height: 50px;
+        margin-top: -15px;
+    }
+}

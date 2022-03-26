@@ -1,0 +1,117 @@
+/*--------------------------------------------------------------------
+| CUSTOM CSS FOR ADMIN
+-----------------------------------------------------------------------*/
+
+.login-center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border-radius: 0.25rem;
+}
+
+.image-round {
+    border-radius: 50%;
+}
+
+.body-bg {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.category-verify {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    overflow: auto;
+    max-height: 300px;
+    min-height: 400px;
+    min-width: 1000px;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/* custom badge */
+.custom-badge-success {
+    height: 5px;
+    width: 10px;
+    background-color: #abe5a1;
+    padding: 5px 15px;
+    color: #3c763d;
+}
+
+.custom-badge-warning {
+    height: 5px;
+    width: 10px;
+    background-color: #f7dc6f;
+    padding: 5px 15px;
+    color: #7d6608;
+}
+
+.custom-badge-danger {
+    height: 5px;
+    width: 10px;
+    background-color: #f1948a;
+    padding: 5px 15px;
+    color: #af1111;
+}
+
+
+/* delete model button */
+.delete-button {
+    margin: 15px 15px 0px 0px;
+}
+
+.model-footer-padding {
+    padding: 0px !important;
+}
+
+/* category access */
+.category-select-checkbox {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 5px !important;
+    vertical-align: middle;
+}
+
+/* custom file upload design */
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn-upload {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
